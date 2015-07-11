@@ -1,0 +1,231 @@
+html{
+	height: 100%;
+
+	/*background: green;*/
+	/*font: normal	 32px NewBaskervilleC;*/
+	outline: none;
+}
+
+body {
+	/*width: 100%;*/
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	background: #eff2f7;
+	outline: none;
+}
+
+
+.page {	
+	margin: auto 90px; 
+
+	/*outline: 1px solid green;*/
+}
+
+/*---------- HEADER ----------*/
+
+#header {
+	width: 100%;
+	height: 80px;
+	
+	background: #282a2d;
+	/*position: relative;*/
+}
+
+#header #logo {
+	/*top: 12px;	*/
+	/*left: 90px;*/
+	width: 41px;
+	height: 56px;
+	/*position: relative;*/
+	/*padding: 0;*/
+	margin: 12px 15px;
+	float: left;
+	
+	background: url(../images/feet.png);
+	/*border: 1px dotted blue;*/
+	/*outline: 1px solid red;*/
+}
+
+#header #title {
+	position: relative;
+	top: 15px;
+	
+	font: normal 32px NewBaskervilleC;
+	color: white;
+	/*outline: 1px solid red;*/
+}
+
+#header #slogan {
+	top: 10px;
+	position: relative;
+	
+	font: normal 11px PT Sans;
+	color: #4c4f54;
+	/*outline: 1px solid red;*/
+}
+
+/*---------- CONTENT ----------*/
+
+#content {
+	/*height: 200px;*/
+	padding: 60px 0;
+}
+
+#content #menu {
+	/*padding: 60px 0 10px 0;*/
+	/*padding-left: 0;*/
+
+	/*outline: 1px solid red;*/
+}
+
+#content #menu ul{
+	margin: 0;
+	padding: 0;
+	
+	/*outline: 1px solid blue;*/
+}
+
+#content #menu ul li {
+	margin-right: 27px;
+	display: inline;
+
+
+	/*outline: 1px solid green;*/
+}
+
+#content #menu ul li a{
+	outline: none;
+	text-decoration: none;
+	font: normal 12px PT Sans;
+	color: #9fa2a8; /*#bfc2c8;*/
+}
+
+#content #menu ul li a:hover {
+	/*background-color: red;*/
+	/*font-weight: bold;*/
+	color: #242526;
+}
+
+#content #menu ul li a#nowopen {
+	font-weight: bold;
+	color: #242526;
+	border-bottom: 2px solid #242526;
+}
+
+#content #pics_area {
+	/*margin: -20px;*/
+
+	/*outline: 1px solid red;*/
+}
+
+#content #pics_area .block {
+	width: 300px;
+	height: 200px;
+	margin-top: 20px;
+
+	display: inline-block;
+
+	/*float: right;*/
+
+	/*outline: 1px solid red;*/
+}
+
+#content #pics_area #pic_1 {
+	background: url(../countries/Cuba.jpg);
+}
+
+#content #pics_area #pic_2 {
+	background: url(../countries/Russia.jpg);
+}
+
+#content #pics_area #pic_3 {
+	background: url(../countries/England.jpg);
+}
+
+#content #pics_area #pic_4 {
+	background: url(../countries/Norway.jpg);
+}
+
+#content #pics_area #pic_5 {
+	background: url(../countries/Switzerland.jpg);
+}
+
+#content #pics_area #pic_6 {
+	background: url(../countries/China.jpg);
+}
+
+#content #pics_area #pic_7 {
+	background: url(../countries/Germany.jpg);
+}
+
+#content #pics_area #pic_8 {
+	background: url(../countries/Japan.jpg);
+}
+
+#content #pics_area #pic_9 {
+	background: url(../countries/Australia.jpg);
+}
+
+#content #pics_area #pic_10 {
+	background: url(../countries/India.jpg);
+}
+
+#content #pics_area #pic_11 {
+	background: url(../countries/Finland.jpg);
+}
+
+#content #pics_area #pic_12 {
+	background: url(../countries/New_Zealand.jpg);
+
+}
+#content #pics_area #pic_13 {
+	background: url(../countries/Cuba.jpg);
+}
+
+
+/*---------- FOOTER ----------*/
+
+#footer {
+	height: 60px;
+	background: #282a2d;
+}
+
+#footer #years {
+	float: left;
+	margin: 22px 10px; 
+	
+	font: normal 16px NewBaskervilleC;
+	color: #5e6267;
+}
+
+#footer #logo {
+	width: 28px;
+	height: 33px;
+	float: right;
+	margin: 13px 10px;
+	
+	background: url(../images/running_man.png);
+}
+
+#footer #author {
+	float: right;
+	padding: 22px 5px;
+	
+	font: normal 14px PT Sans;
+	color: #8f9397;
+	/*outline: 1px solid red;*/
+}
+
+#footer #slogan {
+	float: right;
+	right: 0;
+	margin: 0;
+	padding: 22px 0	;
+	
+	font: normal 14px PT Sans;
+	color: #5e6267;
+	/*outline: 1px solid red;*/
+}
